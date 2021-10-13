@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/* 09.09 */
+
+/* 가운데 영역 */
+.container{max-width: 1280px; margin: 0 auto;}
+
+body{font-family: 'Noto Sans KR', sans-serif;}
+
+#login{display: none; width: 1170px; height: 1080px; position: fixed;z-index: 10000; top: 3%; left: 50%; transform: translateX(-50%);}
+.login{width: 1170px;height: 879px; background: url(../img/login_img/login.jpg); display: none; margin-left: 50%; transform: translateX(-50%); }
+#login h1{font-size: 83px;color: #fff; font-weight: bold;padding: 176px 0 0 140px;}
+#login form{margin-left: 140px;}
+
+#login form .id_box{margin-top: 95px; position: relative;}
+#login form .id_box input#id,input#pw,button#but {width: 364px;height: 60px;border-radius: 35px; color: #000; text-align: center; font-size: 20px; opacity: 0.5; border: none;}
+#login form .id_box em,.pw_box em{font-size: 35px; position: absolute; top: 0;left: 20px; color: #fff;}
+
+#login form .pw_box{margin-top: 25px;position: relative;}
+
+#login form .but{margin-top: 25px;}
+#login form .but button#but{ background: #ff3067; font-size: 25px; font-weight: bold; color: #fff; cursor: pointer; opacity: 1;}
+#login form .but button#but:hover{color: #aaa; transition: all 0.1s;}
+
+#login form .text_box{margin-top: 150px;}
+#login form .text_box ul{display: flex;}
+#login form .text_box ul li{margin-right: 107px;}
+#login form .text_box ul li:nth-child(2){margin-right: 0;}
+#login form .text_box ul li a em{font-size: 18px; color: #fff;}
+#login form .text_box ul li a em:hover{color: #ccc;}
+#login form .text_box ul li a em img{width: 34px;height: 33px; margin-right: 10px; transform: translateY(30%);}
+
+#login form .close{position: absolute; top: 30px;right: 30px;}
+#login form .close i{font-size: 60px; color: #fff; cursor: pointer;}
+
+.login_back{display: none; width: 100%;height: 100%;; background: rgba(0, 0, 0, 0.5); position: fixed; top: 0;left: 0; z-index: 9999;}
+
+
